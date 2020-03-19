@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" >
+    </item>
+
+    <item
+        android:id="@+id/add_contact"
+        android:icon="@drawable/add_contact"
+        android:title="Add Contact"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/action_sort_ascending_fn"
+        android:title="Ascending Sort - first name"/>
+    <item
+        android:id="@+id/action_sort_descending_fn"
+        android:title="Descending Sort - first name"/>
+
+    <item
+        android:id="@+id/action_sort_ascending_ln"
+        android:title="Ascending Sort - last name"/>
+    <item
+        android:id="@+id/action_sort_descending_ln"
+        android:title="Descending Sort - last name"/>
+
+    <item
+        android:id="@+id/action_sort_ascending_cn"
+        android:title="Ascending Sort - contact number"/>
+    <item
+        android:id="@+id/action_sort_descending_cn"
+        android:title="Descending Sort - contact number"/>
+</menu>
